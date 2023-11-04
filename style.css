@@ -1,0 +1,52 @@
+body {
+  background-image: url('image3.avif'); /* Replace 'your-image-url.jpg' with the actual image file path or URL */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-2 {
+  background-color: wheat;
+  transition: background-color 0.3s;
+  border-radius: 10px;
+}
+
+.container-2:hover {
+  background-color: white;
+}
+
+h1 {
+  font-family: "Your-Font-Family", sans-serif;
+  font-size: 2.5rem;
+}
+
+.headtext {
+  color: white;
+  margin-top: 100px;
+}
+
+.bottom-shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+input[type=text] {
+  border: 2px solid red;
+  border-radius: 4px;
+}
+
+.section {
+  padding: 20px;
+  border-right: 1px solid #ccc;
+}
+
+.section:last-child {
+  border-right: none;
+}
+
+
